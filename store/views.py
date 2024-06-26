@@ -7,6 +7,7 @@ from .forms import SignUpForm
 from django import forms
 
 
+
 def category(request,foo):
       foo = foo.replace('-',' ')
       try:
